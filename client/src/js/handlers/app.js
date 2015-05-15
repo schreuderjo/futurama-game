@@ -12,7 +12,7 @@ var App = React.createClass({
 
     render: function() {
         return <div className="app-container">
-            <RouteHandler />
+            <h1>Welcome to the World of Tomorrow!!</h1>
         </div>;
     }
 });
