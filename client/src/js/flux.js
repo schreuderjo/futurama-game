@@ -10,13 +10,11 @@ var React = require('react');
 var { Flux, FluxMixin, StoreWatchMixin } = require('tuxxor');
 
 var stores = {
-    SessionStore: require('stores/session'),
-    UserStore: require('stores/user')
+    GameStore: require('stores/game')
 };
 
 var actions = {
-    session: require('actions/session'),
-    user: require('actions/user')
+    game: require('actions/game')
 };
 
 module.exports = {
